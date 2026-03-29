@@ -46527,24 +46527,9 @@ Website: ${d}`;
             path: "/admin/clients",
           },
           {
-            name: "طاقم العمل",
-            icon: m.jsx(HA, { size: 18 }),
-            path: "/admin/workers",
-          },
-          {
             name: "إدارة الأسعار",
             icon: m.jsx(W0, { size: 18 }),
             path: "/admin/prices",
-          },
-          {
-            name: "إعدادات الوكالة",
-            icon: m.jsx(yP, { size: 18 }),
-            path: "/admin/settings",
-          },
-          {
-            name: "أمان الحساب",
-            icon: m.jsx(ts, { size: 18 }),
-            path: "/account-security",
           },
         ])
       : v
@@ -46831,7 +46816,7 @@ Website: ${d}`;
             if (lastWorker) {
                 b = JSON.parse(lastWorker);
             } else {
-                b = { id: "guest", role: "WORKER", name: "عامل" };
+                b = { id: "guest", role: "WORKER", name: "STAF" };
             }
             localStorage.setItem("matbaaty_user", JSON.stringify(b));
           }
@@ -46857,7 +46842,7 @@ Website: ${d}`;
               b = JSON.parse(lastWorker);
               console.log("✅ Restoring last worker session:", b.name);
           } else {
-              b = { id: "guest", role: "WORKER", name: "عامل" };
+              b = { id: "guest", role: "WORKER", name: "STAF" };
               console.log("✅ Starting as guest worker");
           }
           t(b);
