@@ -1,0 +1,23 @@
+{
+    "name": "Jaguar Graphic Management",
+    "short_name": "Jaguar POS",
+    "description": "نظام إدارة وكالة جاجوار جرافيك للطباعة والإعلان",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#e2006a",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "https://i.ibb.co/KphRqqMV/jgc.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://i.ibb.co/KphRqqMV/jgc.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
